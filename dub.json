@@ -1,0 +1,19 @@
+{
+	"authors": [
+		"webfreak"
+	],
+	"name": "fontconfig",
+	"targetType": "sourceLibrary",
+	"libs": [
+		"fontconfig"
+	],
+	"license": "MIT",
+	"copyright": "Copyright © 2017, webfreak",
+	"description": "fontconfig bindings",
+	"dependencies": {
+		"derelict-ft": {
+			"version": "*",
+			"optional": true
+		}
+	}
+}
