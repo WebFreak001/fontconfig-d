@@ -24,7 +24,8 @@
 
 module fontconfig.fontconfig;
 
-import core.stdc.stdarg;
+import core.stdc.stdarg : va_list;
+import core.sys.posix.sys.stat : stat_t;
 
 import std.conv : octal;
 
@@ -513,8 +514,7 @@ FcCache* FcDirCacheRescan(const(FcChar8)* dir, FcConfig* config);
 
 FcCache* FcDirCacheRead(const(FcChar8)* dir, FcBool force, FcConfig* config);
 
-//FcPublic FcCache *
-//FcDirCacheLoadFile (const FcChar8 *cache_file, struct stat *file_stat);
+FcCache* FcDirCacheLoadFile(const(FcChar8)* cache_file, stat_t* file_stat);
 
 void FcDirCacheUnload(FcCache* cache);
 
