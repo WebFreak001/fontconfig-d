@@ -8,10 +8,22 @@
 		"fontconfig"
 	],
 	"license": "MIT",
-	"copyright": "Copyright © 2017, webfreak",
+	"copyright": "Copyright © 2017-2020, webfreak",
 	"description": "fontconfig bindings",
 	"dependencies": {
 		"derelict-ft": {
+			"version": "*",
+			"optional": true
+		},
+		"bindbc-ft": {
+			"version": "*",
+			"optional": true
+		},
+		"bindbc-freetype": {
+			"version": "*",
+			"optional": true
+		},
+		"freetype-d": {
 			"version": "*",
 			"optional": true
 		}

@@ -12,4 +12,5 @@ scope (exit)
 // ...
 ```
 
-If you use freetype-ft from dub you can also use the `fontconfig.fcfreetype` methods.
+If you use derelict-ft, bindbc-ft, bindbc-freetype or freetype-d from dub you
+can also use the `fontconfig.fcfreetype` methods.
