@@ -1,5 +1,10 @@
 # fontconfig-d
 
+This repository is a binding to the fontconfig API on the FreeDesktop git
+repository: https://gitlab.freedesktop.org/fontconfig/fontconfig/-/tree/master/
+
+This version uses the headers from commit fcb042028126d79ea5a5fa015b2b034b98656e73.
+
 ```d
 import fontconfig.fontconfig;
 
